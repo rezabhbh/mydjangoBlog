@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <h1>About</h1>
+    {% for art in articles %}
+    <h2><a href="#">{{art.title}}</a></h2>
+    <h3>{{art.snipet}}</h3>
+    <p>{{art.date}}</p>
+    <p>goodmorning</p>
+    {% endfor %}
+</body>
+</html>
